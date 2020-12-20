@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TagBet</title>
+
+
+  <!-- Font Awesome JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+    integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous">
+  </script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+    integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+    integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+  <div class="container mx-auto relative padding-bottom-20">
+
+    <div class="flex flex-row justify-between px-5 my-5">
+      <span class="f-2">
+        <a href="#">
+        <img src="../images/svg/menu.svg" alt="menu">
+
+        </a>
+      </span>
+      <span class="f-2 text-gray font-bold">Dashboard</span>
+      <a href="notification.html" class="f-2">
+       <img src="../images/svg/notification.svg" alt="notification">
+      </a>
+
+    </div>
+
+    <div class="notification__popup">
+      <span>
+        <svg data-name="Group 278" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 27 27">
+          <g id="Ellipse_227" data-name="Ellipse 227" fill="#fff" stroke="rgba(66,66,109,0.3)" stroke-width="2">
+            <circle cx="13.5" cy="13.5" r="13.5" stroke="none" />
+            <circle cx="13.5" cy="13.5" r="12.5" fill="none" />
+          </g>
+          <g id="noun_Info_1156901" transform="translate(2 2)">
+            <path id="Path_57458" data-name="Path 57458"
+              d="M16.5,5A11.5,11.5,0,1,0,28,16.5,11.485,11.485,0,0,0,16.5,5Zm1.278,16.841a1.278,1.278,0,0,1-2.556,0V15.3a1.278,1.278,0,0,1,2.556,0Zm-1.252-9.43a1.252,1.252,0,1,1,1.252-1.252A1.254,1.254,0,0,1,16.526,12.411Z"
+              transform="translate(-5 -5)" fill="#42426d" />
+          </g>
+        </svg>
+
+      </span>
+      <span>You have been tagged by Lucious. Click to View </span>
+      <span><svg id="Cancel" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20">
+          <path id="Path_994" data-name="Path 994"
+            d="M60,50A10,10,0,1,0,70,60,10,10,0,0,0,60,50Zm0,18.286A8.286,8.286,0,1,1,68.286,60,8.286,8.286,0,0,1,60,68.286Z"
+            transform="translate(-50 -50)" fill="#42426d" />
+          <path id="Path_995" data-name="Path 995"
+            d="M87.389,79.651a.854.854,0,0,0-1.212,0l-2.658,2.656L80.86,79.651a.858.858,0,0,0-1.212,1.212l2.658,2.656-2.658,2.658a.853.853,0,1,0,1.2,1.212l2.67-2.658,2.658,2.658a.857.857,0,0,0,1.212-1.212L84.73,83.52l2.658-2.656A.858.858,0,0,0,87.389,79.651Z"
+            transform="translate(-73.518 -73.52)" fill="#42426d" />
+        </svg>
+      </span>
+    </div>
+
+
+    <div class="flex flex-row justify-between py-5 px-5 m-5">
+      <span class="f-1/5 text-purple">Live Matches</span>
+      <span class="flex flex-row  justify-around mt-1">
+
+        <button class="m-2 outline-none block">
+          <img src="../images/svg/arrow-left.svg" alt="arrow-left">
+        </button>
+
+        <button class="m-2 outline-none block">
+          <img src="../images/svg/arrow-right.svg" alt="arrow-right">
+        </button>
+
+
+      </span>
+    </div>
+
+
+    <div class="card">
+      <div class="card-header">
+        <span class="badge mr-5">Live</span>
+        <span class="f-1/5 text-align-center">EPL</span>
+      </div>
+      <div class="card-body">
+        <div class="flex py-10  justify-evenly">
+          <div class="flex flex-col justify-items-center place-content-center">
+            <img width="80px" src="../images/png/image1.png" alt="image1">
+            <span class="f-1 uppercase my-5">Liverpool F.c.</span>
+          </div>
+
+          <div class="my-2">
+            <span class="mx-4">12 Aug in 19:00</span>
+            <p class="f-4 font-light mx-5">3 : 1</p>
+            <span>Referee: Joe Roykin</span>
+            <div class="flex content-center justify-items-center place-content-center">
+              <span class="badge-vs">vs</span>
+            </div>
+
+          </div>
+
+          <div class="flex flex-col justify-items-center place-content-center">
+            <img width="80px" src="../images/png/image2.png" alt="image2">
+            <span class="f-1 uppercase my-5">Manchester City</span>
+          </div>
+
+        </div>
+
+
+        <div class="absolute left-20">
+          <a href="prediction.html">
+
+            <button class="btn btn-place-bet">Place a bet</button>
+          </a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+    <br>
+    <br>
+
+    <div class="table">
+      <div class="table-header mx-4">
+        <button class="f-1/5 font-semibold tab-active">Major Fixtures</button>
+        <button class="f-1/5 font-semibold mx-5">Prediction History</button>
+      </div>
+
+      <div class="table-body">
+        <div class="table-list table-list-header ">
+          <span class="font-semibold">Englist Premiere League</span>
+
+          <span>View all</span>
+
+        </div>
+        <div class="table-list">
+          <span>Liverpool FC.</span>
+          <span>vs</span>
+          <span>Manchester City</span>
+          <span>12:30 PM</span>
+          <span>0 : 0</span>
+
+        </div>
+        <div class="table-list">
+          <span>Liverpool FC.</span>
+          <span>vs</span>
+          <span>Manchester City</span>
+          <span>12:30 PM</span>
+          <span>0 : 0</span>
+
+        </div>
+        <div class="table-list">
+          <span>Liverpool FC.</span>
+          <span>vs</span>
+          <span>Manchester City</span>
+          <span>12:30 PM</span>
+          <span>0 : 0</span>
+
+        </div>
+        <div class="table-list">
+          <span>Liverpool FC.</span>
+          <span>vs</span>
+          <span>Manchester City</span>
+          <span>12:30 PM</span>
+          <span>0 : 0</span>
+
+        </div>
+        <div class="table-list">
+          <span>Liverpool FC.</span>
+          <span>vs</span>
+          <span>Manchester City</span>
+          <span>12:30 PM</span>
+          <span>0 : 0</span>
+
+        </div>
+        <div class="table-list">
+          <span>Liverpool FC.</span>
+          <span>vs</span>
+          <span>Manchester City</span>
+          <span>12:30 PM</span>
+          <span>0 : 0</span>
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="table">
+      <div class="table-header mx-4">
+        <button class="f-1/5 font-semibold tab-active">World Ranking</button>
+        <button class="f-1/5 font-semibold mx-5">Friends Ranking</button>
+      </div>
+
+      <div class="table-body">
+        <div class="table-list table-list-header ">
+          <span class="font-semibold"> Name</span>
+          <span class="font-semibold"> Country</span>
+          <span class="font-semibold"> Position</span>
+          <span class="font-semibold"> Points</span>
+
+
+
+        </div>
+        <div class="table-list">
+          <span>Yinka Alabi</span>
+          <span>Nigeria</span>
+          <span>1st</span>
+          <span>250pts</span>
+        </div>
+        <div class="table-list">
+          <span>Yinka Alabi</span>
+          <span>Nigeria</span>
+          <span>1st</span>
+          <span>250pts</span>
+        </div>
+        <div class="table-list">
+          <span>Yinka Alabi</span>
+          <span>Nigeria</span>
+          <span>1st</span>
+          <span>250pts</span>
+        </div>
+        <div class="table-list">
+          <span>Yinka Alabi</span>
+          <span>Nigeria</span>
+          <span>1st</span>
+          <span>250pts</span>
+        </div>
+        <div class="table-list">
+          <span>Yinka Alabi</span>
+          <span>Nigeria</span>
+          <span>1st</span>
+          <span>250pts</span>
+        </div>
+        <div class="table-list">
+          <span>Yinka Alabi</span>
+          <span>Nigeria</span>
+          <span>1st</span>
+          <span>250pts</span>
+        </div>
+        <div class="table-list">
+          <span>Yinka Alabi</span>
+          <span>Nigeria</span>
+          <span>1st</span>
+          <span>250pts</span>
+        </div>
+        <div class="table-list">
+          <span>Yinka Alabi</span>
+          <span>Nigeria</span>
+          <span>1st</span>
+          <span>250pts</span>
+        </div>
+
+      </div>
+
+    </div>
+
+
+    <!--  -->
+  </div>
+
+
+  <nav>
+    <ul>
+      <li class="nav-li"><a href="home.html">
+          <svg xmlns="http://www.w3.org/2000/svg" width="28.5" height="28.5" viewBox="0 0 28.5 28.5">
+            <g id="Group_264" data-name="Group 264" transform="translate(0.25 0.25)">
+              <path id="Path_57430" data-name="Path 57430"
+                d="M12.167,16.333h-5A4.173,4.173,0,0,1,3,12.167v-5A4.173,4.173,0,0,1,7.167,3h5a4.173,4.173,0,0,1,4.167,4.167v5a4.173,4.173,0,0,1-4.167,4.167Zm-5-12A2.833,2.833,0,0,0,4.333,7.167v5A2.833,2.833,0,0,0,7.167,15h5A2.833,2.833,0,0,0,15,12.167v-5a2.833,2.833,0,0,0-2.833-2.833Zm19.667,12h-5a4.173,4.173,0,0,1-4.167-4.167v-5A4.173,4.173,0,0,1,21.833,3h5A4.173,4.173,0,0,1,31,7.167v5A4.173,4.173,0,0,1,26.833,16.333Zm-5-12A2.833,2.833,0,0,0,19,7.167v5A2.833,2.833,0,0,0,21.833,15h5a2.833,2.833,0,0,0,2.833-2.833v-5a2.833,2.833,0,0,0-2.833-2.833ZM12.167,31h-5A4.173,4.173,0,0,1,3,26.833v-5a4.173,4.173,0,0,1,4.167-4.167h5a4.173,4.173,0,0,1,4.167,4.167v5A4.173,4.173,0,0,1,12.167,31Zm-5-12a2.833,2.833,0,0,0-2.833,2.833v5a2.833,2.833,0,0,0,2.833,2.833h5A2.833,2.833,0,0,0,15,26.833v-5A2.833,2.833,0,0,0,12.167,19ZM26.833,31h-5a4.173,4.173,0,0,1-4.167-4.167v-5a4.173,4.173,0,0,1,4.167-4.167h5A4.173,4.173,0,0,1,31,21.833v5A4.173,4.173,0,0,1,26.833,31Zm-5-12A2.833,2.833,0,0,0,19,21.833v5a2.833,2.833,0,0,0,2.833,2.833h5a2.833,2.833,0,0,0,2.833-2.833v-5A2.833,2.833,0,0,0,26.833,19Z"
+                transform="translate(-3 -3)" fill="#ff9070" stroke="#ff9070" stroke-width="0.5" />
+            </g>
+          </svg>
+          <!-- <span class="mx-5">Dashboard</span> -->
+        </a></li>
+      <li class="nav-li"><a href="search.html"><svg id="noun_soccer_2746628" xmlns="http://www.w3.org/2000/svg" width="28"
+            height="28" viewBox="0 0 28 28">
+            <g id="Layer_2" data-name="Layer 2">
+              <g id="Layer_1" data-name="Layer 1">
+                <path id="Path_57485" data-name="Path 57485"
+                  d="M14,0h0A14,14,0,1,0,28,14,14,14,0,0,0,14,0ZM26.5,13l-1.6-1.916.525-2.24A12.469,12.469,0,0,1,26.5,13Zm-7.5,12.512,1.47-2.581,2.756-.429A12.582,12.582,0,0,1,19.005,25.515Zm.245-11.83,4.62-1.54L26.5,15.313a12.5,12.5,0,0,1-1.916,5.469l-4.244.665-2.284-3.01ZM4.2,12.145l4.62,1.54L10,18.436,7.744,21.455,3.5,20.781A12.5,12.5,0,0,1,1.584,15.3ZM10.868,1.9a12.521,12.521,0,0,1,6.283,0L14,3.15Zm.507,15.951-1.111-4.463L14,10.4l3.736,2.984L16.625,17.85ZM8.75,2.625l4.524,1.838v4.62L9.293,12.25,4.585,10.7,3.71,6.93A12.618,12.618,0,0,1,8.75,2.625ZM11.2,19.311h5.661l2.249,2.975L16.879,26.25a12.618,12.618,0,0,1-5.338.088L8.978,22.33Zm7.551-7.061L14.77,9.065V4.454l4.48-1.829A12.644,12.644,0,0,1,24.316,6.9l-.875,3.771ZM3.141,11.086,1.54,13A12.364,12.364,0,0,1,2.625,8.855Zm4.48,11.856,1.75,2.7a12.556,12.556,0,0,1-4.559-3.132Z"
+                  fill="#f4f4f4" />
+              </g>
+            </g>
+          </svg>
+        </a></li>
+      <li class="nav-li"><a href="notification.html"><svg xmlns="http://www.w3.org/2000/svg" width="28.054" height="28"
+            viewBox="0 0 28.054 28">
+            <g id="Group_4698" data-name="Group 4698" transform="translate(-270 -1024.305)">
+              <path id="Path_57449" data-name="Path 57449"
+                d="M26.477,6.7A14.136,14.136,0,0,0,7.153,6.228L5.675,4.764a.869.869,0,0,0-1.448.41L2.543,12.023a.885.885,0,0,0,1.064,1.054l6.914-1.668a.855.855,0,0,0,.414-1.434L9.31,8.364a11.128,11.128,0,0,1,15.069.468,10.905,10.905,0,0,1-.03,15.483l-.414.38a1.5,1.5,0,0,0-.118,2.107,1.533,1.533,0,0,0,1.123.5,1.488,1.488,0,0,0,1-.38,4.014,4.014,0,0,0,.5-.5A13.888,13.888,0,0,0,26.477,6.7Z"
+                transform="translate(267.481 1021.666)" fill="#fff" />
+              <path id="Path_57450" data-name="Path 57450"
+                d="M57.737,85.522l-.6.191a1.635,1.635,0,0,0,.413,3.211,1.86,1.86,0,0,0,.413-.064c.254-.064.509-.159.763-.223A1.6,1.6,0,0,0,59.74,86.6,1.542,1.542,0,0,0,57.737,85.522Z"
+                transform="translate(229.67 963.064)" fill="#fff" />
+              <path id="Path_57451" data-name="Path 57451"
+                d="M38.865,86.917l-.636-.1A1.621,1.621,0,0,0,37.593,90a6.891,6.891,0,0,0,.795.127c.064,0,.159.032.254.032a1.584,1.584,0,0,0,1.59-1.4A1.62,1.62,0,0,0,38.865,86.917Z"
+                transform="translate(243.578 962.145)" fill="#fff" />
+              <path id="Path_57452" data-name="Path 57452"
+                d="M21.145,78.856A1.629,1.629,0,1,0,19.11,81.4c.223.159.413.318.636.477a1.657,1.657,0,0,0,.922.286,1.577,1.577,0,0,0,1.335-.7,1.623,1.623,0,0,0-.382-2.258Z"
+                transform="translate(256.164 967.79)" fill="#fff" />
+              <path id="Path_57453" data-name="Path 57453"
+                d="M9.326,64.064a1.629,1.629,0,1,0-2.957,1.367c.127.254.223.477.35.731a1.634,1.634,0,0,0,1.431.858,1.693,1.693,0,0,0,.763-.191,1.621,1.621,0,0,0,.668-2.194Z"
+                transform="translate(264.96 978.856)" fill="#fff" />
+              <path id="Path_57454" data-name="Path 57454"
+                d="M51.763,33.52l-3.72-2.385V25.222a1.622,1.622,0,1,0-3.243,0v6.8a1.613,1.613,0,0,0,.763,1.367l4.451,2.83a1.685,1.685,0,0,0,.859.254,1.614,1.614,0,0,0,.89-2.957Z"
+                transform="translate(237.368 1006.546)" fill="#fff" />
+            </g>
+          </svg>
+        </a></li>
+      <li class="nav-li"><a href="#"
+        >
+        <img src="../images/svg/profile-image.svg" alt="profile-image">
+        </a></li>
+
+    </ul>
+  </nav>
+
+
+  <script type="module">
+    window.onload =  function () {
+      if(window.screen.width >= 835){
+        var body = document.getElementsByTagName('body')[0];
+        body.innerHTML = '';
+      }
+    }
+  </script>
+
+</body>
+
+</html>
