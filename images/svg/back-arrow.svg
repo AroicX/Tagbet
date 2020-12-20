@@ -1,0 +1,22 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  width="24"
+  height="24"
+  viewBox="0 0 24 24"
+>
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="24" height="24" fill="none" />
+    </clipPath>
+  </defs>
+  <g id="Backward_arrow" data-name="Backward arrow" clip-path="url(#clip-path)">
+    <path
+      id="Path_10"
+      data-name="Path 10"
+      d="M12,0,9.818,2.182l8.26,8.26H0v3.117H18.078l-8.26,8.26L12,24,24,12Z"
+      transform="translate(24 24) rotate(180)"
+      fill="#42426d"
+    />
+  </g>
+</svg>

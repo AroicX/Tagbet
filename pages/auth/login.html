@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TagBet</title>
+
+
+  <!-- Font Awesome JS -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js"
+    integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous">
+  </script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js"
+    integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous">
+  </script>
+  <link rel="stylesheet" href="../../css/main.css" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.0/css/all.css"
+    integrity="sha384-OLYO0LymqQ+uHXELyx93kblK5YIS3B2ZfLGBmsJaUyor7CpMTBsahDHByqSuWW+q" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+
+  <div class="container mx-auto login__bg relative">
+    <div class="sign__up">
+      <div class="blur"></div>
+      <p class="text-white font-bold text-xl m-2 heading-md">Welcome back!</p>
+      <br>
+      <span class="text-white">Hi, hope you came with your lucky hat, Enter your details to <br>
+        access your account. if you don't have an account  <a href="#" class="text-yellow-300">Sign Up</a></span>
+
+      <form>
+
+
+        <div class="form-group">
+          <label class="text-white">Phone</label>
+          <input class="form-input mt-1 block w-full" name="phone" value="+234 966 356 6789">
+        </div>
+
+        <div class="form-group">
+          <label class="text-white">Password</label>
+          <input class="form-input mt-1 block w-full" type="password" name="password" value="password">
+        </div>
+
+        <br>
+        <a href="#" class="text-yellow-300 my-5">Forget Password?</a>
+        <br>
+        <br>
+
+
+    
+       
+  
+
+      </form>
+
+      <a href="../home.html">
+        <button class="btn btn__login">
+          Login
+        </button>
+      </a>
+     
+
+      <a href="create.html">
+        <button class="btn btn__create__account">
+          Create account
+        </button>
+      </a>
+
+
+    </div>
+
+
+
+  </div>
+
+
+  <script type="module">
+    window.onload =  function () {
+      if(window.screen.width >= 689){
+        var body = document.getElementsByTagName('body')[0];
+        console.log(body);
+        body.innerHTML = '';
+      }
+    }
+
+
+  </script>
+
+
+</body>
+
+</html>
